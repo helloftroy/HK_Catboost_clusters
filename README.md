@@ -1,6 +1,6 @@
 # HK_Catboost_clusters
 
-# 1) Jupyter Notebooks
+## 1) Jupyter Notebooks
 #### beta_diversity.ipynb
 * beta diversity, cluster richness, and sensor fraction
 #### catboost_IMG_clusters.ipynb
@@ -30,7 +30,7 @@
 * figures for histogram, pfam domain vs. cluster count figures
 * analysis on vick
 
-# 2) Scripts
+## 2) Scripts
 #### make_matrix.py
 * used to create matrix by pulling all >20,000 pfam tables and grouping by cluster
 * broke into multiple files to avoid crashing kernel
@@ -41,7 +41,7 @@
 #### annotate.py
 * pull from uniprot using expasy ID, using Bio SwissProt and ExPASy
 
-# 3) Data
+## 3) Data
 #### IMG Table S3 - Accessory Table
 * accessory data after cleaning. Note: not all biomes have accessory data therefore the table is shorter than full dataset size
 * Can filter the GOLD identifiers to Human:Large Intestine, or Marine in order to find the accessory data used for CatBoost Disease State Classifier and CatBoost Regressor, respectively
@@ -50,4 +50,3 @@
 ### GOLD Analysis Project ID
 * A list of all GOLD identifiers used in this study
 ### other datasets can be found in manuscript or in the extra link containing full CatBoost abundance matrix
-
