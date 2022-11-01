@@ -42,8 +42,12 @@
 * pull from uniprot using expasy ID, using Bio SwissProt and ExPASy
 
 # 3) Data
-#### IMG excel table
-* accessory data after cleaning
+#### IMG Table S3 - Accessory Table
+* accessory data after cleaning. Note: not all biomes have accessory data therefore the table is shorter than full dataset size
+* Can filter the GOLD identifiers to Human:Large Intestine, or Marine in order to find the accessory data used for CatBoost Disease State Classifier and CatBoost Regressor, respectively
 * contains disease class states for gut biomes
-### other datasets can be found in manuscript
+* contains physical parameters used for CatBoost regression on Marine bacteria
+### GOLD Analysis Project ID
+* A list of all GOLD identifiers used in this study
+### other datasets can be found in manuscript or in the extra link containing full CatBoost abundance matrix
 
