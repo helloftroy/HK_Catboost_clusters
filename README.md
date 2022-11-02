@@ -29,6 +29,9 @@
 * annotation file creation
 * figures for histogram, pfam domain vs. cluster count figures
 * analysis on vick
+#### Spearman_correlations.ipynb
+* Correlation matrix for disease states and ecosystems
+* Spearman correlations for beta diversity and between the classes mentioned in manuscript
 
 ## 2) Scripts
 #### make_matrix.py
